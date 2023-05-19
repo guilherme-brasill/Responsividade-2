@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="stylemenu.css">
+    <script src="https://kit.fontawesome.com/61e20fc52d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> R E S P O N S I V I D A D E </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu-hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Orçamento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Título 1</h2>
+            <div class="wrapper">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum aliquam a cupiditate
+                    adipisci delectus voluptates, dolores odit. Blanditiis eos dicta minima quaerat, natus ipsa cumque
+                    quasi perferendis eligendi earum.</p>
+                <img src="img/1.webp">
+            </div>
+        </section>
+        <section>
+            <h2>Título 2</h2>
+            <div class="wrapper">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae culpa porro ratione suscipit
+                    molestiae ad modi perspiciatis, consectetur inventore doloribus eveniet. Saepe nesciunt tempora
+                    veritatis voluptatem qui aliquid enim inventore?</p>
+                <img src="img/2.webp">
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Título 3</h2>
+            <div class="wrapper">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae culpa porro ratione suscipit
+                    molestiae ad modi perspiciatis, consectetur inventore doloribus eveniet. Saepe nesciunt tempora
+                    veritatis voluptatem qui aliquid enim inventore?</p>
+                <img src="img/3.jfif">
+            </div>
+        </section>
+
+        <section>
+            <h2>Título 4</h2>
+            <div class="wrapper">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae culpa porro ratione suscipit
+                    molestiae ad modi perspiciatis, consectetur inventore doloribus eveniet. Saepe nesciunt tempora
+                    veritatis voluptatem qui aliquid enim inventore?</p>
+                <img src="img/4.jfif">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <div class="coluna">
+                <h3><i class="fa-solid fa-map"></i> Mapa do Site</h3>
+                <p>
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i> Início
+                    </a>
+                </p>
+                <p>
+                    <a href="#">
+                        <i class="fa-solid fa-address-card"></i> Sobre
+                    </a>
+                </p>
+                <p>
+                    <a href="#">
+                        <i class="fa-sharp fa-regular fa-clipboard"></i> Portfólio
+                    </a>
+                </p> 
+                <p> 
+                    <a href="#">
+                        <i class="fa-solid fa-phone"></i> Contatos
+                    </a>
+                </p>
+            </div>
+
+            <div class="coluna">
+                <h3><i class="fa-solid fa-globe"></i> Redes Sociais</h3>
+                <p>
+                    <a href="https://www.linkedin.com/in/williamhgates?original_referer=https%3A%2F%2Fwww.google.com%2F">
+                        <i class="fa-brands fa-linkedin"></i> Linkedin
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.instagram.com/thisisbillgates/">
+                        <i class="fa-brands fa-instagram"></i> Instagram
+                    </a>
+                </p>
+
+                <p>
+                    <a href="https://github.com/guilherme-brasill">
+                        <i class="fa-brands fa-github"></i> Github
+                    </a>
+                </p>
+            </div>
+
+            <div class="coluna">
+                <h3><i class="fa-solid fa-location-dot"></i> Endereço</h3>
+                <p> <span> RUA</span> Madagascar</p>
+                <p> <span>CEP</span> Os Pinguins - 0000-777</p>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+    <script>
+        const menuHamburger = document.querySelector('.menu-hamburger');
+        const menu = document.querySelector('.menu');
+        menuHamburger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        })
+
+    </script>
+
+</body>
+
+</html>
